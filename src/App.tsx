@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center h-full">
       <div>
         <h1 className="font-bold text-[64px]">Counter</h1>
       </div>
