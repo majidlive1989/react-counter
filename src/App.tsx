@@ -1,10 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
-  const [color, setColor] = useState("black");
 
   return (
     <div className="flex flex-col justify-center items-center">
@@ -13,8 +12,11 @@ function App() {
       </div>
       <div>
         <span
+          style={{
+            color: count > 0 ? "green" : count === 0 ? "black" : "red",
+          }}
           className="text-[96px] font-semibold"
-          id="countalue text-black text-16"
+          id="countvalue text-black text-16"
         >
           {count}
         </span>
