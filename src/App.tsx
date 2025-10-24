@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="flex flex-col justify-center items-center h-full">
       <div>
-        <h1 className="font-bold text-[64px]">Counter</h1>
+        <h1 className="font-bold text-[64px] text-[#102a42]">Counter</h1>
       </div>
       <div>
         <span
@@ -43,7 +43,7 @@ function App() {
               setCount(count + 1);
             }}
             id="increase"
-            className="border-2 border-[#222] px-3 shadow-2xl shadow-[#0003] rounded-md  hover:bg-[#222] hover:text-white cursor-pointer"
+            className="border-2 border-[#222] px-3 shadow-2xl shadow-[#0003] rounded-md  hover:bg-[#222] hover:text-white cursor-pointer "
           >
             INCREASE
           </button>
