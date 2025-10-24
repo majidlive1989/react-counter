@@ -30,7 +30,7 @@ function App() {
           </button>
           <button
             onClick={() => {
-              setCount((count = 0));
+              setCount(0);
             }}
             id="reset"
             className="border-2 border-black px-3 rounded-md"
