@@ -26,7 +26,7 @@ function App() {
               setCount(count - 1);
             }}
             id="decrease"
-            className="border-2 border-black px-3 rounded-md"
+            className="border-2 border-black px-3 rounded-md hover:bg-black hover:text-white"
           >
             DECREASE
           </button>
@@ -35,7 +35,7 @@ function App() {
               setCount(0);
             }}
             id="reset"
-            className="border-2 border-black px-3 rounded-md"
+            className="border-2 border-black px-3 rounded-md hover:bg-[#222] hover:text-white"
           >
             RESET
           </button>
@@ -44,7 +44,7 @@ function App() {
               setCount(count + 1);
             }}
             id="increase"
-            className="border-2 border-black px-3 rounded-md"
+            className="border-2 border-[#222] px-3 shadow-2xl shadow-[#0003] rounded-md  hover:bg-[#222] hover:text-white"
           >
             INCREASE
           </button>
